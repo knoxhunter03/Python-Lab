@@ -1,6 +1,6 @@
-1a
+# Lab 1.a
 
-# Int, Float, Complex
+Int, Float, Complex
 a = 50
 print("Type of a = 50: ", type(a))
 b = 1.0
@@ -26,16 +26,7 @@ g = {
 print( "\nType of g = " + str(g) + " is: ", type(g))
 h = ("Lisshutharan", "CTIS", "Jain University")
 print( "\nType of h = " + str(h) + " is: ", type(h))
-
-x = input("Input first number: ")
-y = input("Input second number: ")
- 
-print ("Before swapping: ")
-print("Value of x : ", x, " and y : ", y)
-
-_______________________________________________________________________________________________
-1b
-
+-_____________________
 x = input("Input first number: ")
 y = input("Input second number: ")
  
@@ -47,11 +38,18 @@ x, y = y, x
  
 print ("After swapping: ")
 print("Value of x : ", x, " and y : ", y)
-
-
+____________________
+# 1.b
 a=int(input("Enter a value: "));
 b=int(input("Enter b value: "));
 
-# Operator Precedence
+print("Addition of a and b ",a+b);
+print("Subtraction of a and b ",a-b);
+print("Multiplication of a and b ",a*b);
+print("Division of a and b ",a/b);
+print("Remainder of a and b ",a%b);
+print("Exponent of a and b ",a**b);
+
+Operator Precedence
 L= 4+(5*(6-3)/6**3)
 print(L)
