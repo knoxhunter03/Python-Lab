@@ -1,0 +1,24 @@
+# Exp8a
+import matplotlib.pyplot as plt
+plt.axes
+rectangle=plt.Rectangle((0,0),200,200,fc='red')
+plt.gca().add_patch(rectangle)
+rectangle=plt.Rectangle((50,50),100,100,fc='white')
+plt.gca().add_patch(rectangle)
+rectangle=plt.Rectangle((75,75),50,50,fc='red')
+plt.gca().add_patch(rectangle)
+plt.axis("scaled")
+plt.show()
+
+# Exp8b
+from matplotlib import pyplot as plt
+plt.figure()
+plt.axis([0,25,25,0])
+currentAxis=plt.gca()
+for i in range(0,5):
+  for j in range(0,5):
+    if((i+j)%2==0):
+      currentAxis.add_patch(plt.Rectangle((i*5,j*5),5,5,color='white'))
+    else:
+      currentAxis.add_patch(plt.Rectangle((i*5,j*5),5,5,color='black'))
+plt.show()

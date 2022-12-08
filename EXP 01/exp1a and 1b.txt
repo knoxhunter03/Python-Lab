@@ -1,0 +1,57 @@
+1a
+
+# Int, Float, Complex
+a = 50
+print("Type of a = 50: ", type(a))
+b = 1.0
+print("\nType of b = 1.0: ", type(b))
+c = 5 + 9j
+print("\nType of c = 5 + 9j: ", type(c))
+Bool1 = a>b
+Bool2 = a<b
+print("\nExpression a>b is " + str(Bool1) + " and Type is: " + str(type(Bool1)))
+print("\nExpression a<b is " + str(Bool2) + " and Type is: " + str(type(Bool2)))
+d = "Lisshutharan Segaran"
+print("\nType of d = Lisshutharan Segaran: ", type(d))
+e = ["Lisshutharan", "Jain", "University"]
+print("\nType of e = [Lisshutharan, Jain, University] is ", type(e))
+f = {1, 5, 7, 9, 3}
+print(f)
+print( "\nType of f = " + str(f) + " is: ", type(f))
+g = {
+  "Name": "Lisshutharan",
+  "Branch": "CSE-CTIS",
+  "Semester": 5
+}
+print( "\nType of g = " + str(g) + " is: ", type(g))
+h = ("Lisshutharan", "CTIS", "Jain University")
+print( "\nType of h = " + str(h) + " is: ", type(h))
+
+x = input("Input first number: ")
+y = input("Input second number: ")
+ 
+print ("Before swapping: ")
+print("Value of x : ", x, " and y : ", y)
+
+_______________________________________________________________________________________________
+1b
+
+x = input("Input first number: ")
+y = input("Input second number: ")
+ 
+print ("Before swapping: ")
+print("Value of x : ", x, " and y : ", y)
+ 
+# code to swap 'x' and 'y'
+x, y = y, x
+ 
+print ("After swapping: ")
+print("Value of x : ", x, " and y : ", y)
+
+
+a=int(input("Enter a value: "));
+b=int(input("Enter b value: "));
+
+# Operator Precedence
+L= 4+(5*(6-3)/6**3)
+print(L)
